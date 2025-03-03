@@ -1,5 +1,8 @@
 import React from 'react';
-const practice = () => {
-  return <div>HELLO BOIS REACT SETUP IS DONE</div>
+//Functional component props 
+//Fucntional component means that takes props as an argument and returns jsx element
+//props are helpful to pass the data from one component to another component 
+const practice = (props) => {
+  return <div>HELLO {props.name}</div>
 }
 export default practice;
