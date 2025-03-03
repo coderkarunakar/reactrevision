@@ -7,7 +7,7 @@ import Greeting from './Greeting';
 const Practice = () => {
   return (
     <div>
-    <Greeting message = "Hello React"/>
+    <Greeting message = "Hello "/>
     </div>
   )
 }

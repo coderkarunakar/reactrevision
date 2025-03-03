@@ -1,8 +1,10 @@
 import React from "react";
-const Greeting = (prop) => {
+
+// prop is nothing but a parameter to the function and it can  be named as anything 
+const Greeting = (karun) => {
     return (
         <div>
-            {prop.message}
+            {karun.message}
         </div>
     )
 }
